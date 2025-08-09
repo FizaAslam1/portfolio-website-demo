@@ -1,32 +1,107 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+💼 Fiza Aslam – Personal Portfolio Website
+This is a personal portfolio website created using HTML5, CSS3, and JavaScript. It showcases my background, skills, projects, certifications, and contact details in a clean, responsive layout. The template is adapted from HTML5 UP, customized to reflect my data science journey.
 
+🌐 Live Preview
+You can open the index.html file directly in a browser to preview the site. Make sure the folder structure (especially the assets/ folder) is intact.
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+📁 Folder Structure
+lua
+Copy
+Edit
+Fiza-Portfolio/
+│
+├── index.html               → Main homepage
+├── generic.html             → About Me page
+├── elements.html            → Projects page
+│
+├── images/                  → All site images (e.g. Me.jpg, Data Science.jpg)
+│
+└── assets/
+    ├── css/
+    │   ├── main.css         → Core styling file
+    │   └── noscript.css     → Fallback CSS for no-JS users
+    └── js/
+        ├── jquery.min.js
+        ├── jquery.scrollex.min.js
+        ├── jquery.scrolly.min.js
+        ├── browser.min.js
+        ├── breakpoints.min.js
+        ├── util.js
+        └── main.js          → JavaScript behavior
+💡 Features & Sections
+👋 Intro Section: Greeting with animation
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+🔗 Navigation Bar: Links to Home, About, and Projects
 
-(* = not included)
+📷 About Me: Picture and short description
 
-AJ
-aj@lkn.io | @ajlkn
+💻 Mini Projects:
 
+Student Grade System
 
-Credits:
+Daily Task Manager
 
-	Demo Images:
-		Unsplash (unsplash.com)
+Expense Tracker
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Contact Book
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Quiz Game
+
+📊 Data Science Projects:
+
+Titanic EDA & Preprocessing
+
+COVID-19 Analysis
+
+🧠 Skills: Python, Pandas, Matplotlib, etc.
+
+🎓 Education: Bachelor’s in IT – Islamia University Bahawalpur
+
+📜 Certifications:
+
+Google AI Essentials
+
+IBM Python 101
+
+HP Data Science & Analysis
+
+🏅 Skill Badges: From Google, LinkedIn, and Sololearn
+
+📞 Contact Section: Email, GitHub, and Location
+
+🛠️ Technologies Used
+HTML5
+
+CSS3
+
+JavaScript
+
+FontAwesome for icons
+
+Responsive Design techniques
+
+HTML5 UP Template (Massively)
+
+🔧 Customization
+To update or change any section:
+
+Edit content directly inside index.html, generic.html, or elements.html
+
+Replace images in the images/ folder
+
+Adjust styles in assets/css/main.css
+
+Edit links in the <nav> for adding/removing pages
+
+📬 Connect With Me
+GitHub: FizaAslam1
+
+LinkedIn: Fiza Aslam
+
+Email: chfizu190@gmail.com
+
+TikTok: @fiza.ch30
+
+🧾 License
+This portfolio uses the Creative Commons License as per HTML5 UP.
+
