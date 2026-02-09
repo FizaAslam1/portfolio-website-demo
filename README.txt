@@ -98,10 +98,11 @@ GitHub: FizaAslam1
 
 LinkedIn: Fiza Aslam
 
-Email: chfizu190@gmail.com
+Email: ia5221553@gmail.com
 
 TikTok: @fiza.ch30
 
 🧾 License
 This portfolio uses the Creative Commons License as per HTML5 UP.
+
 
