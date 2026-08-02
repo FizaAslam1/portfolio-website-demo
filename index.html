@@ -727,9 +727,29 @@ img, svg { max-width: 100%; }
             </button>
         </form>
     </div>
+ <!-- Success Message (Hidden by default) -->
+<div id="success-message" style="display:none; text-align:center; padding:2rem; background:#f0fdf4; border:2px solid #22c55e; border-radius:12px; margin-top:1rem;">
+    <h3 style="color:#16a34a;">✅ Message Sent Successfully!</h3>
+    <p style="color:#475569;">Thank you for reaching out! I'll get back to you soon.</p>
+</div>
 <footer>
   <p>© 2026 Fiza Aslam · Built with passion for data science</p>
 </footer>
-
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        var form = this;
+        var data = new FormData(form);
+        
+        fetch(form.action, {
+            method: 'POST',
+            body: data
+        }).then(function() {
+            form.style.display = 'none';
+            document.getElementById('success-message').style.display = 'block';
+        });
+    });
+</script>
 </body>
 </html>
