@@ -366,6 +366,54 @@
     .nav-links { display: none; }
     .exp-card { flex-direction: column; }
   }
+ /* ===== MOBILE RESPONSIVE FIXES ===== */
+@media (max-width: 900px) {
+  #hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 5rem 1.25rem 2.5rem;
+    gap: 2rem;
+  }
+  .hero-desc { margin: 0 auto 2rem; }
+  .hero-btns { justify-content: center; }
+  .profile-ring { width: 220px; height: 220px; }
+  .nav-links { display: none; }
+  nav { padding: 0 1.25rem; }
+
+  section { padding: 3rem 1.25rem; }
+  .stats-inner { gap: 1.5rem 2rem; }
+  .stat-num { font-size: 1.4rem; }
+
+  .projects-grid, .skills-grid, .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-card { flex-direction: column; text-align: left; }
+  .exp-icon { margin-bottom: 0.5rem; }
+
+  h1 { font-size: clamp(2rem, 9vw, 2.8rem); }
+  .section-title { font-size: clamp(1.4rem, 6vw, 1.8rem); }
+}
+
+@media (max-width: 480px) {
+  .hero-tag { font-size: 0.72rem; padding: 0.3rem 0.7rem; }
+  .hero-role { font-size: 0.95rem; }
+  .profile-ring { width: 170px; height: 170px; }
+  .btn-primary, .btn-secondary { width: 100%; justify-content: center; }
+  .hero-btns { flex-direction: column; width: 100%; }
+
+  .stats-bar { padding: 1.25rem 1rem; }
+  .stats-inner { gap: 1rem 1.5rem; }
+
+  .project-card, .skill-group, .cert-card, .exp-card { padding: 1.25rem; }
+  .project-tags, .project-metrics { gap: 0.4rem; }
+
+  .contact-links { flex-direction: column; align-items: center; }
+  .contact-link { width: 100%; justify-content: center; }
+  .contact-box { padding: 2rem 1.25rem; }
+}
+
+img, svg { max-width: 100%; }
 </style>
 </head>
 <body>
