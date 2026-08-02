@@ -720,34 +720,43 @@ img, svg { max-width: 100%; }
     <textarea name="message" placeholder="Your Message" rows="4" required 
               style="width:100%; padding:10px; margin:8px 0; border:1px solid #e2e8f0; border-radius:8px;"></textarea>
     
-    <button type="submit" 
+    <button type="submit" id="submit-btn"
             style="background:#1E3A5F; color:white; padding:12px 24px; border:none; border-radius:8px; cursor:pointer; font-size:1rem; width:100%;">
         Send Message 🚀
     </button>
 </form>
 
 <!-- Success Message -->
-<div id="success-message" style="display:none; text-align:center; padding:2rem; background:#f0fdf4; border:2px solid #22c55e; border-radius:12px; margin-top:1rem;">
-    <h3 style="color:#16a34a;">✅ Message Sent Successfully!</h3>
-    <p style="color:#475569;">Thank you for reaching out! I'll get back to you soon.</p>
-</div><footer>
+<div id="success-msg" style="display:none; text-align:center; padding:2rem; background:#f0fdf4; border:2px solid #22c55e; border-radius:12px; margin-top:1rem;">
+    <h3 style="color:#16a34a; margin:0;">✅ Message Sent Successfully!</h3>
+    <p style="color:#475569; margin:8px 0 0 0;">Thank you! I'll reply soon.</p>
+</div>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    var form = this;
+    var btn = document.getElementById('submit-btn');
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+    
+    fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form)
+    })
+    .then(function() {
+        form.style.display = 'none';
+        document.getElementById('success-msg').style.display = 'block';
+    })
+    .catch(function() {
+        btn.textContent = 'Error! Try Again';
+        btn.disabled = false;
+    });
+});
+</script>
+<footer>
   <p>© 2026 Fiza Aslam · Built with passion for data science</p>
 </footer>
-<script>
-    document.getElementById('contact-form').addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        var form = this;
-        var data = new FormData(form);
-        
-        fetch(form.action, {
-            method: 'POST',
-            body: data
-        }).then(function() {
-            form.style.display = 'none';
-            document.getElementById('success-message').style.display = 'block';
-        });
-    });
-</script>
 </body>
 </html>
