@@ -1,82 +1,99 @@
-# Portfolio Website Demo
+# Fiza Aslam — Portfolio Website
 
-A lightweight, responsive portfolio template built with HTML, CSS, and JavaScript. This repository demonstrates a clean, modern personal website layout suitable for showcasing projects, skills, and contact information.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20Site-blue?logo=google-chrome&logoColor=white)](https://fizaaslam1.github.io/portfolio-website-demo/)
+[![GitHub](https://img.shields.io/badge/GitHub-@FizaAslam1-181717?logo=github&logoColor=white)](https://github.com/FizaAslam1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fiza-aslam-07a3863a4)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/fizaaslam12)
 
-## Table of contents
-- [Overview](#overview)
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Deployment](#deployment)
-- [Built with](#built-with)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+---
 
 ## Overview
-This project provides a simple, well-structured starting point for a personal portfolio website. It emphasizes accessibility, responsive layout, and minimal dependencies, making it easy to adapt for personal branding or small portfolio showcases.
 
-## Features
-- Responsive layout for mobile and desktop
-- Clean, modern styling using CSS
-- Interactive elements with minimal JavaScript
-- Easy to customize and extend
-- No build step required (static HTML/CSS/JS)
+A modern, responsive personal portfolio showcasing Fiza Aslam — Data Scientist & ML Engineer. The site highlights projects, skills, certifications, and provides multiple ways to contact or demo deployed apps.
 
-## Demo
-Open the `index.html` file in your browser to view the site locally, or deploy to GitHub Pages or any static hosting provider for a live demo.
+Live demo: https://fizaaslam1.github.io/portfolio-website-demo/
 
-## Installation
-Clone the repository and open the site locally:
+## Screenshot
+
+![Portfolio preview](images/screenshot.png)
+
+*Replace `images/screenshot.png` with an actual screenshot image for a polished preview.*
+
+## Key Features
+
+- Clean, responsive one-page layout with sections: About, Projects, Skills, Experience, Certifications, Contact
+- Project cards with badges, metrics, demo and GitHub links
+- Contact form (Formspree) + mailto CTAs
+- Visual accents, animated profile ring, and accessible layout
+- Ready for GitHub Pages deployment
+
+## Highlighted Projects
+
+- EV Safety System — Predictive maintenance for EV chargers (Streamlit demo)
+- Customer Churn Prediction — Ensemble models with retention insights
+- Fake News Detection — TF-IDF + classifier, real-time Streamlit demo
+- PriceOptimizer AI — XGBoost-based dynamic pricing and simulation
+- Attrition Shield — ANN with Keras Tuner & SMOTE
+- Chest X-Ray Pneumonia Detector — VGG16 transfer learning (high recall)
+
+## Tech Stack
+
+- HTML5, CSS3, JavaScript
+- Static hosting (GitHub Pages)
+- Third-party demos: Streamlit and Hugging Face Spaces
+- Fonts: Space Grotesk, JetBrains Mono
+- Badges/logos via shields.io
+
+## Local Preview / Development
 
 1. Clone the repo:
-   git clone https://github.com/FizaAslam1/portfolio-website-demo.git
 
-2. Open the project:
-   - Option A: Open `index.html` directly in your browser.
-   - Option B (recommended for local testing): serve the directory with a static server:
-     - Using Node: `npx http-server` or `npx serve`
-     - Using Live Server (VS Code): right-click `index.html` → “Open with Live Server”
+```bash
+git clone https://github.com/FizaAslam1/portfolio-website-demo.git
+```
 
-## Usage
-- Replace placeholder content (name, bio, projects, contact details) with your own.
-- Add project entries by following the existing HTML structure.
-- Update styles in the CSS files to match your brand colors and typography.
-- Extend interactivity by editing the JavaScript file(s) or adding new scripts.
+2. Open `index.html` in your browser for a local preview:
 
-## Customization
-- Colors & typography: edit the main CSS file to update variables or classes.
-- Sections: add, remove, or reorder HTML sections to fit your content priorities.
-- Images: place assets in the appropriate folder and update image references.
-- SEO: update meta tags in the head of `index.html` (title, description, og:image).
+- Double-click `index.html`, or
+- Serve with a simple local server:
+  - Python 3: `python -m http.server 8000` then open `http://localhost:8000`
 
-## Deployment
-This project is static and can be deployed to any static hosting provider:
-- GitHub Pages:
-  - Push to the repository and enable GitHub Pages via repository settings (choose the branch and / (root) or /docs directory).
-- Netlify / Vercel:
-  - Connect the repository and deploy with default build settings (no build step needed for plain static sites).
+3. Edit content (projects, images, contact email) directly in `index.html`.
 
-## Built with
-- HTML
-- CSS
-- JavaScript
+## Deployment (GitHub Pages)
 
-(Languages by composition in this repo: CSS, JavaScript, HTML)
+This repo is already deployed via GitHub Pages. To redeploy after changes:
+
+- Push your commits to the `main` branch (or the branch configured for pages).
+- GitHub Pages will auto-deploy; the live site will be available at:
+  https://fizaaslam1.github.io/portfolio-website-demo/
+
+## Best Practices & Suggestions
+
+- Add a dedicated `images/screenshot.png` and update the README screenshot link for a polished repo preview.
+- Add a LICENSE (e.g., MIT) if you want to permit reuse.
+- Consider small accessibility improvements: add alt text for any missing images and ensure color contrast on badges/buttons.
+- If you want to track contact form submissions, consider using a backend or Zapier integration for persistence (Formspree works well for email forwarding).
 
 ## Contributing
-Contributions are welcome. To propose changes:
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your message"`
-4. Push and open a pull request describing your changes.
 
-Please follow consistent code formatting and include a short description of any functional change.
-
-## License
-Please add a LICENSE file to this repository to clarify terms. A common choice is the MIT License.
+Contributions are welcome. For small changes (typos, project updates, screenshots), open a PR or submit an issue describing the change.
 
 ## Contact
-For questions or requests, open an issue in this repository or contact the repository owner.
+
+- Email: cfiza8180@gmail.com
+- LinkedIn: https://www.linkedin.com/in/fiza-aslam-07a3863a4
+- GitHub: https://github.com/FizaAslam1
+- Kaggle: https://www.kaggle.com/fizaaslam12
+
+## Acknowledgements
+
+Template and inspiration adapted from modern portfolio patterns and focused UI design. Badges provided by [shields.io](https://shields.io).
+
+## License
+
+If you want to open-source this site, add a license (recommended: MIT). Otherwise, all rights reserved.
