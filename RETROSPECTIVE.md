@@ -57,6 +57,21 @@ A model in a notebook is a prototype. A model in an app is proof. I learned that
 When I say "I built this with Claude and here's what I checked myself," people trust me more, not less. Transparency about AI usage shows I understand the tool, not that I'm hiding behind it.
 
 ---
+## 📊 Hours Log
+
+| Week | Hours | Focus |
+|------|-------|-------|
+| Week 1 | 9 hrs | Foundation, sitemap, proof statement |
+| Week 2 | 11 hrs | Cases, prompts, fundamentals |
+| Week 3 | 10 hrs | Identity kit, images, content map |
+| Week 4 | 14 hrs | Deployment, automation, agents |
+| Week 5 | 20 hrs | Agent building, website live |
+| Week 6 | 8 hrs | Make it work, mobile, feedback |
+| Week 7 | 22 hrs | Break your site, domain + badge |
+| Week 8 | 4 hrs | README, demo video |
+| Week 9 | 4 hrs | Final polish |
+| Week 10 | 6 hrs | INDEX, retrospective, final submission |
+| **Total** | **~108 hrs** | **Complete!** |
 
 ### Final Thought
 
