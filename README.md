@@ -21,7 +21,6 @@ Live demo: https://fizaaslam1.github.io/portfolio-website-demo/
 
 ![Portfolio preview](images/Screenshot.png)
 
-*Replace `images/screenshot.png` with an actual screenshot image for a polished preview.*
 
 ## Key Features
 
